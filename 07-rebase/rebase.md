@@ -20,3 +20,7 @@ Puis faire le merge façon rebase.
 ```
 git rebase truc
 ```
+
+## Scenario de 2 developpeurs qui bossent sur master
+
+1. le dev 1 fait un fetch, un rebase, sa modification.
