@@ -21,3 +21,5 @@
 ## En parallele, faire un autre troisieme commit avec Marcel Dupont
 
 ## Merger les deux
+
+## Rebase les deux
