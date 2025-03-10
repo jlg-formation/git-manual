@@ -6,8 +6,10 @@
 
 Les 3 commandes suivantes font :
 
-- créer une reference de repository distant sur lequel on peut récupérer ou livrer du code.
-- changer le nom de la branche principale en `master` (peut être la branche s'appelle déjà `master` et dans ce cas la commande est inutile)
+- créer une reference de repository distant sur lequel on peut récupérer ou
+  livrer du code.
+- changer le nom de la branche principale en `master` (peut être la branche
+  s'appelle déjà `master` et dans ce cas la commande est inutile)
 - délivrer l'historique des commits de la branche `master`.
 
 ```
