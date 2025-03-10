@@ -25,8 +25,6 @@ credential.https://dev.azure.com.usehttppath=true
 init.defaultbranch=master
 user.email=jlguenego@gmail.com
 user.name=Jean-Louis GUENEGO
-safe.directory=D:/___ARCHITECT/archi2024
-safe.directory=D:/___BETINA/betina
 core.repositoryformatversion=0
 core.filemode=false
 core.bare=false
@@ -57,11 +55,18 @@ file:C:/Program Files/Git/etc/gitconfig credential.https://dev.azure.com.usehttp
 file:C:/Program Files/Git/etc/gitconfig init.defaultbranch=master
 file:C:/Users/jlouis/.gitconfig user.email=jlguenego@gmail.com
 file:C:/Users/jlouis/.gitconfig user.name=Jean-Louis GUENEGO
-file:C:/Users/jlouis/.gitconfig safe.directory=D:/___ARCHITECT/archi2024
-file:C:/Users/jlouis/.gitconfig safe.directory=D:/___BETINA/betina
 file:.git/config        core.repositoryformatversion=0
 file:.git/config        core.filemode=false
 file:.git/config        core.bare=false
 file:.git/config        core.logallrefupdates=true
 file:.git/config        core.ignorecase=true
+```
+
+## Ajouter ou modifier de la config
+
+Préciser le niveau `--system`, `--global` ou `--local`.
+
+```
+git config --local user.name "Marcel DUPONT"
+git config --local user.email "marcel@dupont.com"
 ```
