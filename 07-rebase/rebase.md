@@ -33,3 +33,9 @@ git rebase truc
 8. Il fait un rebase de sa branche.
 9. Il peut alors pusher a nouveau.
 10. Il rebase autant que necessaire.
+
+## Mettre la config en pull rebase par defaut.
+
+```
+git config --global pull.rebase true
+```
