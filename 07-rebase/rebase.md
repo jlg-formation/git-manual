@@ -24,19 +24,12 @@ git rebase truc
 ## Scenario de 2 developpeurs qui bossent sur master
 
 1. le dev 1 fait un fetch, un rebase, sa modification.
-
 2. le dev 1 fait une modif dans son coin et commit.
-
 3. le dev 2 continue à développer et fait un commit sans push.
-
 4. le dev 1 push.
-
 5. le dev 2 push et cela presente un conflit.
-
 6. le dev 2 va alors creer une branche avec son commit qu'il voulait pusher.
-
 7. il pourra alors fetcher.
-
 8. Il fait un rebase de sa branche.
-
 9. Il peut alors pusher a nouveau.
+10. Il rebase autant que necessaire.
