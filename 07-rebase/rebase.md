@@ -26,7 +26,11 @@ git rebase truc
 1. le dev 1 fait un fetch, un rebase, sa modification.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. le dev 1 fait une modif dans son coin et commit.
+=======
+2. le dev 2 continue à développer et fait un commit sans push.
+>>>>>>> 7b5f053 (dev: commit sans push)
 =======
 2. le dev 2 continue à développer et fait un commit sans push.
 >>>>>>> 7b5f053 (dev: commit sans push)
