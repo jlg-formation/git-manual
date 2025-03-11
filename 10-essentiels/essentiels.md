@@ -28,8 +28,8 @@ Revenir à un état précédent après une erreur (`git reset --hard HEAD~1` ou 
 
 Voir l'historique des commits (`git log --oneline --graph --all`)
 Voir les différences entre commits ou branches (`git diff HEAD`)
-Modifier le dernier commit (git commit --amend)
-Créer un commit intermédiaire sans toucher à l'index (git stash et git stash pop)
+Modifier le dernier commit (`git commit --amend`)
+Créer un commit intermédiaire sans toucher à l'index (`git stash` et `git stash pop`)
 Annuler un commit sans supprimer les fichiers (git reset --soft HEAD~1)
 🚑 Gestion des erreurs et récupération
 Annuler un commit déjà poussé (git revert <commit_hash>)
