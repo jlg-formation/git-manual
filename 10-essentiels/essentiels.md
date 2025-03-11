@@ -20,11 +20,13 @@ Supprimer une branche distante (`git push origin --delete feature-x`)
 
 Mettre à jour sa branche avec la branche principale (`git pull origin main --rebase`)
 Résoudre un conflit de fusion (éditer les fichiers conflictuels, `git add`, `git commit`)
-Rebase une branche sur une autre (git rebase main)
-Annuler un rebase en cours (git rebase --abort)
-Revenir à un état précédent après une erreur (git reset --hard HEAD~1 ou git reflog)
+Rebase une branche sur une autre (`git rebase main`)
+Annuler un rebase en cours (`git rebase --abort`)
+Revenir à un état précédent après une erreur (`git reset --hard HEAD~1` ou `git reflog`)
+
 🛠 Révisions et corrections
-Voir l'historique des commits (git log --oneline --graph --all)
+
+Voir l'historique des commits (`git log --oneline --graph --all`)
 Voir les différences entre commits ou branches (git diff HEAD)
 Modifier le dernier commit (git commit --amend)
 Créer un commit intermédiaire sans toucher à l'index (git stash et git stash pop)
