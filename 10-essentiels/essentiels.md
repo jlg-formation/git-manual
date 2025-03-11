@@ -2,22 +2,23 @@ Un développeur doit maîtriser plusieurs scénarios courants avec Git pour trav
 
 📌 Scénarios de base
 
-Initialiser un dépôt (git init)
-Cloner un dépôt distant (git clone <repo_url>)
-Faire un commit (git add . && git commit -m "Message")
-Pousser des modifications vers un dépôt distant (git push origin <branch>)
-Récupérer les modifications depuis un dépôt distant (git pull origin <branch>)
+Initialiser un dépôt (`git init`)
+Cloner un dépôt distant (`git clone <repo_url>`)
+Faire un commit (`git add . && git commit -m "Message"`)
+Pousser des modifications vers un dépôt distant (`git push origin <branch>`)
+Récupérer les modifications depuis un dépôt distant (`git pull origin <branch>`)
 
 🔄 Gestion des branches
 
-Créer une nouvelle branche (git checkout -b feature-x)
-Basculer entre les branches (git checkout main)
-Fusionner une branche dans une autre (git merge feature-x)
-Supprimer une branche locale (git branch -d feature-x)
-Supprimer une branche distante (git push origin --delete feature-x)
+Créer une nouvelle branche (`git checkout -b feature-x`)
+Basculer entre les branches (`git checkout main`)
+Fusionner une branche dans une autre (`git merge feature-x`)
+Supprimer une branche locale (`git branch -d feature-x`)
+Supprimer une branche distante (`git push origin --delete feature-x`)
 
 🤝 Collaboration et résolution de conflits
-Mettre à jour sa branche avec la branche principale (git pull origin main --rebase)
+
+Mettre à jour sa branche avec la branche principale (`git pull origin main --rebase`)
 Résoudre un conflit de fusion (éditer les fichiers conflictuels, git add, git commit)
 Rebase une branche sur une autre (git rebase main)
 Annuler un rebase en cours (git rebase --abort)
