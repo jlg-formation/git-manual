@@ -1,5 +1,6 @@
 Un développeur doit maîtriser plusieurs scénarios courants avec Git pour
-travailler efficacement en équipe et gérer son code proprement. Voici les plus importants :
+travailler efficacement en équipe et gérer son code proprement. Voici les plus
+importants :
 
 📌 Scénarios de base
 
