@@ -14,6 +14,17 @@ Scenario :
 3. le dev B commit une modif et push aussi. Un merge est demandé.
 4. le dev B fait le merge (rebase) et push. L'historique est restée linéaire.
 
+```
+git checkout master
+git checkout -b feature/foo
+
+# make some commits
+
+git rebase master
+git checkout master
+git merge --ff-only feature/foo
+```
+
 ## Filter l'historique
 
 1. un chef de projet parcours l'historique d'un projet.
