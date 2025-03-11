@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# This hook should be placed in .git/hooks/pre-push
+# It will run the format:check script before pushing to the remote
+# If the script fails, the push will be aborted
+
+set -eau
+
+remote="$1"
+url="$2"
+
+echo "About to puuuuuush!"
+echo "remote: $remote"
+echo "url: $url"
+echo "shell: " $(ps -p $$ | tail -1 | cut -d '/' -f 4)
+
+pnpm run format:check
+
+exit 0
