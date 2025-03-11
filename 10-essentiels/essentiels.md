@@ -19,7 +19,7 @@ Supprimer une branche distante (`git push origin --delete feature-x`)
 🤝 Collaboration et résolution de conflits
 
 Mettre à jour sa branche avec la branche principale (`git pull origin main --rebase`)
-Résoudre un conflit de fusion (éditer les fichiers conflictuels, git add, git commit)
+Résoudre un conflit de fusion (éditer les fichiers conflictuels, `git add`, `git commit`)
 Rebase une branche sur une autre (git rebase main)
 Annuler un rebase en cours (git rebase --abort)
 Revenir à un état précédent après une erreur (git reset --hard HEAD~1 ou git reflog)
