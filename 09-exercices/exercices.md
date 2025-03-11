@@ -43,3 +43,7 @@ Scenario :
 2. Pour des raisons de confidentialités il ne veut pas montrer tous les commits
    intermédiaires.
 3. Il squash des commits.
+
+## Interdire les merges sur le remote
+
+Je sais pas encore comment faire.
