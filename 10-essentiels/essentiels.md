@@ -38,7 +38,7 @@ Revenir à une version précédente du code (git checkout <commit_hash> -- <file
 Annuler tous les changements non commités (git reset --hard)
 Annuler des modifications locales d'un fichier spécifique (git checkout -- <file>)
 🏎 Optimisation et bonnes pratiques
-Squash plusieurs commits en un seul (git rebase -i HEAD~3)
+Squash plusieurs commits en un seul (`git rebase -i HEAD~3`)
 Travailler avec des tags pour marquer des versions (git tag v1.0 && git push origin v1.0)
 Nettoyer l’historique des branches locales obsolètes (git branch --merged | grep -v '*' | xargs git branch -d)
 Gérer des sous-modules Git (git submodule add <repo_url> <path>)
